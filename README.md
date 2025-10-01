@@ -126,7 +126,7 @@ random-state: reproducibility
 
 ## Example (Windows) 
 
-#if you are reading this in preview of README.dm change this line ..venv\Scripts\Activate.ps1 to .\\.venv\Scripts\Activate.ps1 
+```bash
 
 git clone https://github.com/leocmwork/Logical_regression_redundancy.git
 
@@ -148,9 +148,13 @@ python train_en_sweep_redundancy.py --glob "data/train/redundancy_series_rank*_t
 
 python evaluate_models_redundancy.py --glob "data/test/redundancy_series_rank*_test.csv" --target target
 
+```
+
 ---
 
 ## Example (Linux/macOS)
+
+```bash
 
 git clone https://github.com/leocmwork/Logical_regression_redundancy.git
 
@@ -178,10 +182,13 @@ python train_en_sweep_redundancy.py --glob "data/train/redundancy_series_rank*_t
 
 python evaluate_models_redundancy.py --glob "data/test/redundancy_series_rank*_test.csv" --target target
 
+```
+
 ---
 
 ## Example results
 
 ![ROC AUC vs redundant predictors](https://private-user-images.githubusercontent.com/234937055/495882167-c6785085-b3ee-48c5-b204-b0ac4108ec80.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTkyNjQ1NjIsIm5iZiI6MTc1OTI2NDI2MiwicGF0aCI6Ii8yMzQ5MzcwNTUvNDk1ODgyMTY3LWM2Nzg1MDg1LWIzZWUtNDhjNS1iMjA0LWIwYWM0MTA4ZWM4MC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwOTMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDkzMFQyMDMxMDJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05ZTYxYjEyYjkyNDU5YzVmYzEyYTI0ZGUzMzljNTEwY2I5YzMzMTI2ZjBiYjQ0MTU5MDIxMDBiNzZmOGIxNjQ1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.umMhrb3qhbU1bO3dJTJGEm3Wi31AupKF2KcJbfrIDXg)
+
 
 
